@@ -29,6 +29,7 @@ import boca_logo from './company/Boca_Juniors_logo.png';
 import tenaris_logo from './company/Tenaris_logo.png';
 import tesla from "./company/tesla.png";
 
+import animelist from './animelist.png';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -62,6 +63,7 @@ export {
   boca_logo,
   tenaris_logo,
   tesla,
+  animelist,
   carrent,
   jobit,
   tripguide,
