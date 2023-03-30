@@ -16,13 +16,17 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    utn,
+    boca_logo,
+    tenaris_logo,
     tesla,
     shopify,
     carrent,
+    animelist,
     jobit,
     tripguide,
     threejs,
+    starbucks,
   } from "../assets";
   
   export const navLinks = [
@@ -72,30 +76,30 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -104,10 +108,10 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
     {
       name: "docker",
       icon: docker,
@@ -116,55 +120,54 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Teacher's Aide",
+      company_name: "Universidad Tecnológica Nacional",
+      icon: utn,
+      iconBg: "#fff",
+      date: "Summer 2016",
+      points: [
+        "Resolution of queries and problems expressed by students.",
+        "Development of classes and subject agenda.",
+        "Monitoring deliveries and student tasks.",
+      ],
+    },
+    {
+      title: "Head of practical work",
+      company_name: "Universidad Tecnológica Nacional",
+      icon: utn,
+      iconBg: "#fff",
+      date: "2017- December 2022",
+      points: [
+        "Follow-up of students tasks.",
+        "Preparation of grade reports.",
+        "Explanation of queries and general agenda.",
+        "Develop classes corresponding to the curriculum of the subject.",
+      ],
+    },
+    {
+      title: "Internship in Technical Support",
+      company_name: "Club Boca Juniors",
+      icon: boca_logo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2019-October 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Hardware and Software Maintenance.",
+        "Creation and control of security policies and user registration (Active Directory).",
+        "Periodic stock reviews.",
+        "Attendding to users needs.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Trainee HC, Strategic Projects IT",
+      company_name: "Tenaris",
+      icon: tenaris_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "February 2021 - To date",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "SQL data structures analysis.",
+        "Interpretation of customer needs to create new functions. (Scrum methodology).",
+        "Database migration.",
+        "Implementation of stored procedures and functions in PostgreSQL and T-SQL.",
       ],
     },
   ];
@@ -198,68 +201,27 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Anime List",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search and manage their mangas, providing users a convenient solution for their reading needs.",
       tags: [
         {
-          name: "react",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "PostgreSQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS3",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: animelist,
+      source_code_link: "https://github.com/EmaOlay/Fullstack",
     },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

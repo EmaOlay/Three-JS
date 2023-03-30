@@ -24,8 +24,12 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import utn from './company/utn.png';
+import boca_logo from './company/Boca_Juniors_logo.png';
+import tenaris_logo from './company/Tenaris_logo.png';
 import tesla from "./company/tesla.png";
 
+import animelist from './animelist.png';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -55,7 +59,11 @@ export {
   meta,
   shopify,
   starbucks,
+  utn,
+  boca_logo,
+  tenaris_logo,
   tesla,
+  animelist,
   carrent,
   jobit,
   tripguide,
